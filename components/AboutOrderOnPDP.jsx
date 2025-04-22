@@ -8,8 +8,8 @@ function AboutOrderOnPDP() {
                         <p className="MuiTypography-root MuiTypography-h6 mui-style-1e2a067">1</p>
                     </div>
                     <div className="MuiBox-root mui-style-0">
-                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ЛЕГКОЕ ОФОРМЛЕНИЕ ЗАКАЗА</p>
-                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Выбирай в каталоге нужный товар, добавляй его в корзину и переходи к детальному оформлению.</p>
+                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ЛЕГКЕ ОФОРМЛЕННЯ ЗАМОВЛЕННЯ</p>
+                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Обирайте товар в каталозі, додавайте у кошик і переходьте до оформлення.</p>
                     </div>
                 </div>
             </div>
@@ -20,8 +20,8 @@ function AboutOrderOnPDP() {
                         <p className="MuiTypography-root MuiTypography-h6 mui-style-1e2a067">2</p>
                     </div>
                     <div className="MuiBox-root mui-style-0">
-                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ОПЛАТА РОССИЙСКОЙ БАНКОВСКОЙ КАРТОЙ</p>
-                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">У нас удобно — оплата в рублях и не нужно лишних манипуляций с деньгами.</p>
+                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ОПЛАТА БУДЬ-ЯКОЮ КРИПТОВАЛЮТОЮ АБО ФІАТОМ</p>
+                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">В нас присутня зручна, швидка та анонімна оплата.</p>
                     </div>
                 </div>
             </div>
@@ -32,8 +32,8 @@ function AboutOrderOnPDP() {
                         <p className="MuiTypography-root MuiTypography-h6 mui-style-1e2a067">3</p>
                     </div>
                     <div className="MuiBox-root mui-style-0">
-                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ПОДТВЕРЖДЕНИЕ ЗАКАЗА</p>
-                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">После того как заказ будет подтвержден, мы привезем его в срок до 24 дней. В случае, каких либо проблем, мы немедленно известим вас, предложим актуальную замену или вернем оплату.</p>
+                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ПІДТВЕРДЖЕННЯ ЗАМОВЛЕННЯ</p>
+                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Після того як замовлення буде підтверджено, ми доставимо його протягом 1-3 днів.</p>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@ function AboutOrderOnPDP() {
                         <p className="MuiTypography-root MuiTypography-h6 mui-style-1e2a067">4</p>
                     </div>
                     <div className="MuiBox-root mui-style-0">
-                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ПОЛУЧЕНИЕ ЗАКАЗА</p>
-                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Доставку по России осуществляет 5Post. Заказ можно получить в любом удобном магазине сети «Пятёрочка» или «Перекрёсток».</p>
+                        <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ОТРИМАННЯ ТОВАРУ</p>
+                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Доставку безкоштовна і виконується новою поштою,</p>
                     </div>
                 </div>
             </div>

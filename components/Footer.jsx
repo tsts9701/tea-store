@@ -13,18 +13,13 @@ const Footer = () => {
                     {/* MENU START */}
                     <div className="flex flex-col gap-3 shrink-0">
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            <Link href="/about#faqSection">
-                                Юридическая информация
-                            </Link>
-                        </div>
-                        <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            <Link href="/careers">
-                                Карьера в cross centre
+                            <Link href="/">
+                                Юридична інформація
                             </Link>
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             <Link href="/allreviews">
-                                Отзывы
+                                Відгуки
                             </Link>
                         </div>
                     </div>
@@ -35,30 +30,20 @@ const Footer = () => {
                         {/* MENU START */}
                         <div className="flex flex-col gap-3">
                             <div className="font-oswald font-medium uppercase text-sm">
-                                Помощь
+                                Допомога
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <Link href="/about#faqSection">
-                                    Отследить заказ
+                                <Link href="/">
+                                    Методи оплати
                                 </Link>
                             </div>
-                            <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <Link href="/about#faqSection">
-                                    Возврат товара
-                                </Link>
-                            </div>
-                            <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <Link href="/about#faqSection">
-                                    Методы оплаты
-                                </Link>
-                            </div>
-                            <Link href="/about#faqSection">
+                            <Link href="/">
                                 <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                    Связь с нами
+                                    Зв'язок з нами
                                 </div>
                             </Link>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <Link href="/about#faqSection">
+                                <Link href="/">
                                     Доставка
                                 </Link>
                             </div>
@@ -67,27 +52,24 @@ const Footer = () => {
 
                         {/* MENU START */}
                         <div className="flex flex-col gap-3">
-                            <div className="font-oswald font-medium uppercase text-sm">
-                                Популярное
-                            </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <a href="/category/mens-shoes">
-                                    Мужская обувь
+                                <a href="/category/green-kratom">
+                                    Green tea
                                 </a>
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <a href="/category/women-shoes">
-                                    Женская обувь
+                                <a href="/category/white-kratom">
+                                    White tea
                                 </a>
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                <a href="#productsRecommendations">
-                                    Наши рекомендации
+                                <a href="/category/javanica-mitragyna">
+                                    Javanica Mitragyna
                                 </a>
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 <a href="/about">
-                                    О нас
+                                    Про нас
                                 </a>
                             </div>
                         </div>
@@ -125,20 +107,20 @@ const Footer = () => {
             <Wrapper className="flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0">
                 {/* LEFT START */}
                 <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer text-center md:text-left">
-                    © 2024 All Rights Reserved
+                    © 2025 All Rights Reserved
                 </div>
                 {/* LEFT END */}
 
                 {/* RIGHT START */}
                 <div className="flex gap-2 md:gap-5 text-center md:text-left flex-wrap justify-center">
                     <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-                        <Link href="/privacy">
-                            Публичная оферта
+                        <Link href="/">
+                            Публічна оферта
                         </Link>
                     </div>
                     <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-                        <Link href="/privacy">
-                            Политика конфиденциальности
+                        <Link href="/">
+                            Політика конфіденційності
                         </Link>
                     </div>
                 </div>
