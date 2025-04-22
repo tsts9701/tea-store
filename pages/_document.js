@@ -9,10 +9,10 @@ export default function Document() {
         <meta name="keywords" content="кроссовки, спортивная обувь, кроссовки nike, кроссовки adidas, кроссовки jordan, купить nike, купить jordan, обувь из Европы, кроссовки из Европы" />
         <meta name="og:title" content="Cross Centre — интернет-магазин спортивной обуви из Европы" />
         <meta name="og:type" content="website" />
-        <meta name="og:url" content="https://crosscentre.ru" />
+        <meta name="og:url" content="https://tea-store-tau.vercel.app" />
         <meta property="og:site_name" content="Cross Centre"></meta>
-        <meta name="og:image" content="http://crosscentre.ru/tabl-ban-2.jpg" />
-        <meta property="og:image:secure_url" content="https://crosscentre.ru/tabl-ban-2.jpg" /> 
+        <meta name="og:image" content="https://tea-store-tau.vercel.app/logotype2.png" />
+        <meta property="og:image:secure_url" content="https://tea-store-tau.vercel.app/logotype2.png" /> 
         <meta property="og:image:type" content="image/jpeg" /> 
         <meta property="og:image:width" content="1200" /> 
         <meta property="og:image:height" content="630" />
