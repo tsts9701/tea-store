@@ -63,7 +63,7 @@ function PDPAccordion() {
                                     <svg data-v-490d9690="" width="16px" height="16px" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L4.78462 4.90382C4.81224 4.93418 4.8456 4.95838 4.88265 4.97492C4.91969 4.99147 4.95963 5 5 5C5.04037 5 5.08031 4.99147 5.11735 4.97492C5.1544 4.95838 5.18776 4.93418 5.21538 4.90382L9 1" stroke="#1D1D20" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                                 </div>
                             </div>
-                            <div className={"MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered mui-style-c4sutr " + (i === 0 ? "pdp-faq-list" : "pdp-faq-content")}>
+                            <div className={`MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered mui-style-c4sutr pdp-accordion-list-content-${i + 1} ` + (i === 0 ? "pdp-faq-list" : "pdp-faq-content")}>
                                 <p>
                                     {Parser(item.content)}
                                 </p>

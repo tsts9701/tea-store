@@ -46,7 +46,7 @@ function AboutUsComponents() {
                         <div className="MuiBox-root mui-style-59whaf">
                             <svg width="140" height="140" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="70" cy="70" r="70" fill="#DBFF00"></circle>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M33.424 38.765H24.17v-8.34h12.51l4.045 3.159 2.338 9.351h64.507l3.956 5.489-12.51 37.53-3.956 2.851H49.19l-4.046-3.159-11.72-46.881Zm11.724 12.51 7.298 29.19h39.608l9.73-29.19H45.148Z" fill="#110D1C"></path>
+                            <path fillRule="evenodd" clipRule="evenodd" d="M33.424 38.765H24.17v-8.34h12.51l4.045 3.159 2.338 9.351h64.507l3.956 5.489-12.51 37.53-3.956 2.851H49.19l-4.046-3.159-11.72-46.881Zm11.724 12.51 7.298 29.19h39.608l9.73-29.19H45.148Z" fill="#110D1C"></path>
                             <path d="M65.87 103.4a6.255 6.255 0 1 1-12.51 0 6.255 6.255 0 0 1 12.51 0ZM84.635 109.655a6.255 6.255 0 1 0 0-12.51 6.255 6.255 0 0 0 0 12.51Z" fill="#110D1C"></path>
                             </svg>
                             <div className="MuiTypography-root MuiTypography-h3 mui-style-1w8etop"><b>5 минут</b></div>

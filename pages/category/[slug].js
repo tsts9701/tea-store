@@ -126,8 +126,13 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
     let restCategoryProducts = [];
+    let apiProducts;
 
-    let apiProducts = allSiteProducts.filter(item => (item.category === slug));
+    if (slug === "all-products") {
+        apiProducts = allSiteProducts;
+    } else {
+        apiProducts = allSiteProducts.filter(item => (item.category === slug));
+    }
 
     let maxProductsPages = Math.ceil(apiProducts.length / PLP_PAGE_SIZE);
 

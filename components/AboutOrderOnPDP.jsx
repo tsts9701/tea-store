@@ -9,7 +9,7 @@ function AboutOrderOnPDP() {
                     </div>
                     <div className="MuiBox-root mui-style-0">
                         <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ЛЕГКЕ ОФОРМЛЕННЯ ЗАМОВЛЕННЯ</p>
-                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Обирайте товар в каталозі, додавайте у кошик і переходьте до оформлення.</p>
+                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Обирайте товар у каталозі, додавайте у кошик і переходьте до оформлення.</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ function AboutOrderOnPDP() {
                     </div>
                     <div className="MuiBox-root mui-style-0">
                         <p className="MuiTypography-root MuiTypography-h5 mui-style-1ykvyr9">ОТРИМАННЯ ТОВАРУ</p>
-                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Доставку безкоштовна і виконується новою поштою,</p>
+                        <p className="MuiTypography-root MuiTypography-p2 mui-style-yio48b">Отримайте товар у відділені нової пошти, доставка є безкоштовною,</p>
                     </div>
                 </div>
             </div>

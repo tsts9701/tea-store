@@ -47,7 +47,7 @@ function EditUserDetailsModal(props) {
                                 <h3 className="shipping-options__title">
                                     <button aria-label="посмотреть списком" className="shipping-options__back" onClick={() => setUserDetailsShown(false)}>
                                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1716 31.8284L1.17157 18.8284L1.17157 13.1715L14.1716 0.171516L19.8284 5.82837L13.6569 11.9999L31 11.9999L31 19.9999L13.6569 19.9999L19.8284 26.1715L14.1716 31.8284Z" fill="#110D1C"></path>
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M14.1716 31.8284L1.17157 18.8284L1.17157 13.1715L14.1716 0.171516L19.8284 5.82837L13.6569 11.9999L31 11.9999L31 19.9999L13.6569 19.9999L19.8284 26.1715L14.1716 31.8284Z" fill="#110D1C"></path>
                                         </svg>
                                     </button>
                                     Дані отримувача

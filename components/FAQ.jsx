@@ -67,7 +67,7 @@ function Faq () {
                                 <p className="MuiTypography-root MuiTypography-h6 mui-style-1s65c8v">{item.title}</p>
                                 <div className="MuiBox-root mui-style-10kyoxo">
                                     <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13.284 13.966 22h-3.932L1 13.284 4.931 9.49l4.29 4.138V2h5.559v11.629l4.289-4.138L23 13.284Z" fill="#110D1C"></path>
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M23 13.284 13.966 22h-3.932L1 13.284 4.931 9.49l4.29 4.138V2h5.559v11.629l4.289-4.138L23 13.284Z" fill="#110D1C"></path>
                                     </svg>
                                 </div>
                             </div>

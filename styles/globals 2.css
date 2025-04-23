@@ -1987,6 +1987,10 @@ svg.tt-icon-star--empty {
     height: 14px;
 }
 
+.pdp-faq-list.opened {
+    height: 320px !important;
+}
+
 .pdp-faq-accordion-container .pdp-faq-content p {
     line-height: 20px;
     text-align: justify;
@@ -2007,16 +2011,8 @@ svg.tt-icon-star--empty {
     margin-bottom: 12px;
 }
 
-.pdp-accordion-list-content-1.opened {
-    height: 275px;
-}
-
-.pdp-accordion-list-content-2.opened {
-    height: 230px;
-}
-
-.pdp-accordion-list-content-3.opened {
-    height: 327px;
+.pdp-faq-accordion-container .mui-style-c4sutr.opened {
+    height: 170px;
 }
 
 .shipping-modal {

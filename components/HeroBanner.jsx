@@ -1,9 +1,8 @@
 import React from "react";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import { BiArrowBack } from "react-icons/bi";
+import Link from "next/link";
 
 const HeroBanner = () => {
     return (
@@ -19,9 +18,12 @@ const HeroBanner = () => {
             <div className="homepage-titles">
                 <span className="homepage-title">Вітаємо у нашому магазині</span>
                 <span className="homepage-title">Тут ви можете придбати чай по приємним цінам</span>
-                <button className="go-catalog-button">
-                    <i className="icon-shopping-cart" aria-hidden="true"></i>
-                    <span>В каталог</span></button>
+                <Link href="/category/all-products">
+                    <button className="go-catalog-button">
+                        <i className="icon-shopping-cart" aria-hidden="true"></i>
+                        <span>В каталог</span>
+                    </button>
+                </Link>
             </div>
         </div>
     );

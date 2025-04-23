@@ -84,7 +84,7 @@ function PlaneAnimation() {
                           <div className="MuiBox-root mui-style-a0agwf" ref={planeIcon}><span><img src="/plane.png" /></span></div>
                           <div className="MuiBox-root mui-style-1hixu1k">
                             <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="m17.828.172 13 13v5.656l-13 13-5.656-5.656L18.343 20H1v-8h17.343l-6.171-6.172L17.828.172Z" fill="#110D1C"></path>
+                                <path fillRule="evenodd" clipRule="evenodd" d="m17.828.172 13 13v5.656l-13 13-5.656-5.656L18.343 20H1v-8h17.343l-6.171-6.172L17.828.172Z" fill="#110D1C"></path>
                             </svg>
                           </div>
                       </div>
