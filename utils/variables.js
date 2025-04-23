@@ -22,8 +22,8 @@ export const mobileNavigation = [
     { id: 2, name: "Зелений кратом", subMenu: false, category: "green-kratom", url: "green-kratom"},
     { id: 3, name: "Білий кратом", subMenu: false, category: "white-kratom", url: "white-kratom"},
     { id: 3, name: "Javanica mitragyna", subMenu: false, category: "javanica-mitragyna", url: "javanica-mitragyna"},
-    { id: 4, name: "Корзина", url: "cart" },
-    { id: 5, name: "Список Желаний", url: "wishlist" },
+    { id: 4, name: "Кошик", url: "cart" },
+    { id: 5, name: "Список бажань", url: "wishlist" },
     { id: 6, name: "О нас", url: "about" },
 ];
 
