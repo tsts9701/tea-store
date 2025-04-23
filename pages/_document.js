@@ -10,7 +10,7 @@ export default function Document() {
         <meta name="og:title" content="Kratom-in.com.ua — інтернет магазин колекційного чаю" />
         <meta name="og:type" content="website" />
         <meta name="og:url" content="https://tea-store-tau.vercel.app" />
-        <meta property="og:site_name" content="Cross Centre"></meta>
+        <meta property="og:site_name" content="Kratom in"></meta>
         <meta name="og:image" content="https://tea-store-tau.vercel.app/logotype2.png" />
         <meta property="og:image:secure_url" content="https://tea-store-tau.vercel.app/logotype2.png" /> 
         <meta property="og:image:type" content="image/png" /> 

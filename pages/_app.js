@@ -36,10 +36,10 @@ function App({ Component, pageProps }) {
   return (
     <div className="app-wrapper">
       <Head>
-        <title>Cross Centre — интернет-магазин спортивной обуви из Европы</title>
-        <meta name="description" content="Оригинальная спортивная обувь из Европы: кроссовки, кеды, зимняя обувь, ботинки." />
+        <title>Kratom In це магазин колекційного чаю з Південно-Східної Азії по найкращим цінами</title>
+        <meta name="description" content="Якісний та перевірений кратом зелених та білих сортів не по завищених цінах." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="кроссовки, спортивная обувь, кроссовки nike, кроссовки adidas, кроссовки jordan, купить nike, купить jordan, обувь из Европы, кроссовки из Европы" />
+        <meta name="keywords" content="кратом, kratom, green maeng, white maeng, зелений кратом, заменитель кратома, замінник кратома, матча" />
         <link rel="icon" href="/favicon.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <script async src="https://script.click-chat.ru/chat.js?wid=06c53cd7-fc2c-4a15-8fbe-f133212deafd"></script>
