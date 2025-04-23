@@ -37,6 +37,8 @@ const ProductDetails = ({ p }) => {
 
   useEffect(() => {
     if (p && p.images) {
+      let wishlistData = localStorage.getItem("wishlistData");
+
       setProduct(p);
       setTotalPrice(p.pricePer100g);
       setProductImages(() => {
@@ -52,6 +54,17 @@ const ProductDetails = ({ p }) => {
 
         return array;
       });
+
+      if (wishlistData && wishlistData.length) {
+        wishlistData = wishlistData.split("|");
+
+        for (let wishListItemName of wishlistData) {
+            if (wishListItemName === p.name) {
+              setIsFavorited(true);
+              break;
+            }
+        }
+      }
     }
   }, [p]);
 
