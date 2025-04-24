@@ -44,6 +44,7 @@ function App({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         {/*<script async src="https://script.click-chat.ru/chat.js?wid=06c53cd7-fc2c-4a15-8fbe-f133212deafd"></script> */}
         <script async src="https://www.w3counter.com/tracker.js?id=152206"></script>
+        <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="6809593bbb4075e7c602bba7" async></script>
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -59,7 +60,7 @@ function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
 
-      <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="6809593bbb4075e7c602bba7" async></script>
+      
     </div>
   );
 }
