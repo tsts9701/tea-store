@@ -64,12 +64,14 @@ const Cart = () => {
 
             if (response.ok) {
                 response = response.json();
-
+console.log(response)
                 if (response && response.result) {
                     response = response.result;
 
                     window.open(response.link, "_blank");
                 }
+
+                setLoading(false);
             }
         } catch (e) {
             setLoading(false);
