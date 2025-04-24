@@ -38,16 +38,7 @@ const Cart = () => {
         setLoading(true);
 
         try {
-            let orderId = Math.random().toString(36).substr(2, 10);
-            let amountToPay = selectedDeliveryMethod === "1" ? subTotal : DELIVERY_COST;
             let savedUserContactData = window.localStorage.getItem("userContactData");
-
-            let merchantIdInput = paymentForm.current.querySelector("input[name='merchant_id']");
-            let amountInput = paymentForm.current.querySelector("input[name='amount']");
-            let currencyInput = paymentForm.current.querySelector("input[name='currency']");
-            let orderIdInput = paymentForm.current.querySelector("input[name='order_id']");
-            let emailInput = paymentForm.current.querySelector("input[name='email']");
-            let signInput = paymentForm.current.querySelector("input[name='sign']");
 
             if (!savedUserContactData) {
                 return;
@@ -55,20 +46,29 @@ const Cart = () => {
 
             savedUserContactData = JSON.parse(savedUserContactData);
 
-            merchantIdInput.value = "d366ba9e-b918-4180-b8d8-c70e8cfb5f02";
-            amountInput.value = amountToPay;
-            currencyInput.value = "RUB";
-            orderIdInput.value = orderId;
-            emailInput.value = savedUserContactData.email;
-            signInput.value = sha256(["d366ba9e-b918-4180-b8d8-c70e8cfb5f02", amountToPay, "RUB",
-                "2e6ca7490bb95e5a4425fca73d9c9298", orderId
-            ].join(":"));
+            let response = await fetch("https://spectrocoin.com/api/public/merchants/orders/create", {
+                method: "POST",
+                headers: {
+                    "Accept": "*/*", 
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify({
+                    lang: "ru",
+                    payAmount: subTotal,
+                    payCurrencyCode: "UAH",
+                    payerEmail: savedUserContactData.email,
+                    payerName: savedUserContactData.firstName,
+                    payerSurname: savedUserContactData.lastName,
+                    projectId: "ca418074-29e7-4c1e-bb8b-94f30e0efa2b"
+                })
+            })
+console.log(response)
+            if (response.ok) {
+                console.log(response)
+                response = response.json();
 
-            setLoading(false);
-
-            setTimeout(function () {
-                paymentForm.current.submit();
-            }, 300);
+                window.open(response.redirectUrl, "_blank")
+            }
         } catch (e) {
             setLoading(false);
         }

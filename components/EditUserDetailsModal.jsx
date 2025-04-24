@@ -108,7 +108,7 @@ function EditUserDetailsModal(props) {
 
                                     <div className="input-item address-form__footer">
                                         <div className="address-form__submit-wrapper">
-                                            <button type="submit" className="address-form__submit button button_secondary"> Подтвердить </button>
+                                            <button type="submit" className="address-form__submit button button_secondary"> Зберегти </button>
                                         </div>
                                     </div>
                                 </form>
