@@ -46,28 +46,25 @@ const Cart = () => {
 
             savedUserContactData = JSON.parse(savedUserContactData);
 
-            let response = await fetch("https://spectrocoin.com/api/public/merchants/orders/create", {
+            let response = await fetch("https://api.cryptocloud.plus/v2/invoice/create?locale=ru", {
                 method: "POST",
                 headers: {
                     "Accept": "*/*", 
-                    "content-type": "application/json"
+                    "content-type": "application/json",
+                    "Authorization": "Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiTlRJeE9URT0iLCJ0eXBlIjoicHJvamVjdCIsInYiOiIxYmJhYjJkM2E1NWNjMWU2MDQ4MWY4ZWY4NDBhNTExOTFmMzY0M2MxYWY3Zjc2MDhjNzRjMjcyNmEzNTU5ZjViIiwiZXhwIjo4ODE0NTQzODc1OH0.iAgHJ1xwkoNyUy7V7dvN8mfpV5MWLspvg6Pv68_qt-w"
                 },
                 body: JSON.stringify({
-                    lang: "ru",
-                    payAmount: subTotal,
-                    payCurrencyCode: "UAH",
-                    payerEmail: savedUserContactData.email,
-                    payerName: savedUserContactData.firstName,
-                    payerSurname: savedUserContactData.lastName,
-                    projectId: "ca418074-29e7-4c1e-bb8b-94f30e0efa2b"
+                    shop_id: "6BwcPTgjt62HYQXu",
+                    amount: subTotal,
+                    currency: "UAH",
+                    email: savedUserContactData.email,
+                    time_to_pay: { "hours": 0, "minutes": 20 }
                 })
             })
 console.log(response)
             if (response.ok) {
                 console.log(response)
                 response = response.json();
-
-                window.open(response.redirectUrl, "_blank")
             }
         } catch (e) {
             setLoading(false);
