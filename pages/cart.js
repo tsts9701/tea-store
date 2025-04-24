@@ -63,8 +63,8 @@ const Cart = () => {
             })
 
             if (response.ok) {
-                response = response.json();
-console.log(response)
+                response = await response.json();
+
                 if (response && response.result) {
                     response = response.result;
 
