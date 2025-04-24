@@ -61,10 +61,15 @@ const Cart = () => {
                     time_to_pay: { "hours": 0, "minutes": 20 }
                 })
             })
-console.log(response)
+
             if (response.ok) {
-                console.log(response)
                 response = response.json();
+
+                if (response && response.result) {
+                    response = response.result;
+
+                    window.open(response.link, "_blank");
+                }
             }
         } catch (e) {
             setLoading(false);
