@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import Head from "next/head";
 
+import { spLiveChatLoaded } from "../customEvents"
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SiteWideBanner from "@/components/SiteWideBanner"
@@ -31,6 +32,8 @@ function App({ Component, pageProps }) {
     if (!isLoggedIn && pageProps.requiresAuth) {
       router.push("/login");
     }
+
+    spLiveChatLoaded();
   }, [isLoggedIn, pageProps.requiresAuth, router]);
 
   return (
@@ -59,8 +62,6 @@ function App({ Component, pageProps }) {
       <Header />
       <Component {...pageProps} />
       <Footer />
-
-      
     </div>
   );
 }
