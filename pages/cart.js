@@ -65,13 +65,13 @@ const Cart = () => {
             if (response.ok) {
                 response = await response.json();
 
+                setLoading(false);
+
                 if (response && response.result) {
                     response = response.result;
 
-                    window.open(response.link, "_blank");
+                    window.location.href = response.link;
                 }
-
-                setLoading(false);
             }
         } catch (e) {
             setLoading(false);
