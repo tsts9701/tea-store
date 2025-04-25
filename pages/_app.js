@@ -45,8 +45,7 @@ function App({ Component, pageProps }) {
         <meta name="keywords" content="кратом, kratom, green maeng, white maeng, зелений кратом, заменитель кратома, замінник кратома, матча" />
         <link rel="icon" href="/favicon.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        {/*<script async src="https://script.click-chat.ru/chat.js?wid=06c53cd7-fc2c-4a15-8fbe-f133212deafd"></script> */}
-        <script async src="https://www.w3counter.com/tracker.js?id=152206"></script>
+        <script async  src="https://www.w3counter.com/tracker.js?id=155551"></script>
         <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="6809593bbb4075e7c602bba7" async></script>
         <link
           rel="preconnect"
