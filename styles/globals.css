@@ -458,6 +458,14 @@ footer {
     }
 }
 
+.see-all-reviews-homepage {
+    text-align: center;
+}
+
+.see-all-reviews-homepage a {
+    width: 100%;
+}
+
 .mui-style-13wr3f9 {
     margin-bottom: 40px;
 }
