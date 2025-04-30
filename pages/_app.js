@@ -39,8 +39,8 @@ function App({ Component, pageProps }) {
   return (
     <div className="app-wrapper">
       <Head>
-        <title>Kratom In це магазин колекційного чаю з Південно-Східної Азії по найкращим цінами</title>
-        <meta name="description" content="Якісний та перевірений кратом зелених та білих сортів не по завищених цінах." />
+        <title>kratom-in.com.ua - місце де знову доступний той самий чай</title>
+        <meta name="description" content="Якісний кратом зелених та білих сортів не по завищених цінах." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="кратом, kratom, green maeng, white maeng, зелений кратом, заменитель кратома, замінник кратома, матча" />
         <link rel="icon" href="/favicon.webp" />

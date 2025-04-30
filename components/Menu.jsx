@@ -10,7 +10,7 @@ const Menu = ({ mensCatClassName, womensCatClassName, setMensCatClassName, setWo
                 return (
                     <React.Fragment key={index}>
                         <li className="cursor-pointer">
-                            <a href={"/category/" + item?.url}> {item.name} </a>
+                            <a href={item.category ? ("/category/" + item?.url) : item?.url}> {item.name} </a>
                         </li>
                     </React.Fragment>
                 );
