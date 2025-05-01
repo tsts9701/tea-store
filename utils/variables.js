@@ -23,8 +23,7 @@ export const mobileNavigation = [
     { id: 3, name: "Білий кратом", subMenu: false, category: "white-kratom", url: "white-kratom"},
     { id: 3, name: "Javanica mitragyna", subMenu: false, category: "javanica-mitragyna", url: "javanica-mitragyna"},
     { id: 4, name: "Кошик", url: "cart" },
-    { id: 5, name: "Список бажань", url: "wishlist" },
-    { id: 6, name: "О нас", url: "about" },
+    { id: 5, name: "Список бажань", url: "wishlist" }
 ];
 
 export const allSiteProducts = [
