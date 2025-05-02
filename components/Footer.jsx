@@ -18,6 +18,14 @@ const Footer = () => {
                             </Link>
                         </div>
                     </div>
+
+                    <div className="flex flex-col gap-3 shrink-0">
+                        <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
+                            <Link href="https://www.instagram.com/kratom.in.com.ua" target="_blank">
+                                Наш інстаграм
+                            </Link>
+                        </div>
+                    </div>
                     {/* MENU END */}
 
                     {/* NORMAL MENU START */}
