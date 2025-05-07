@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import Head from "next/head";
 
+import { Analytics } from "@vercel/analytics/react"
 import { spLiveChatLoaded } from "../customEvents"
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -61,6 +62,7 @@ function App({ Component, pageProps }) {
       <Header />
       <Component {...pageProps} />
       <Footer />
+      <Analytics />
     </div>
   );
 }
